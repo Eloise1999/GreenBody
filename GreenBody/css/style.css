@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    height: 1200px;
+}
+
+/* 左側欄位 */
+
+.header {
+    width: 260px;
+    padding: 20px;
+    background-image: url("../img/left_bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #69745f;
+}
+
+.logo img {
+    width: 260px;
+    height: 240px;
+}
+
+.nav ul {
+    margin: 30px;
+}
+
+.nav ul li {
+    text-align: center;
+    list-style: none;
+    border-bottom: #e5eadd 1px dotted;
+
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    height: 80px;
+    line-height: 80px;
+    color: #e5eadd;
+}
+
+/* 右側欄位 */
+
+.mainArea {
+    width: 900px;
+    padding: 20px 40px;
+    background-color: #e5eadd;
+}
+
+.pic img {
+    width: 800px;
+    height: 250px;
+}
+
+.content h1 {
+    color: #565b46;
+    text-align: center;
+    margin: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+
+/* 活動區 */
+
+.activity{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.box {
+    width: 220px;
+    margin: 20px 0px;
+    padding: 40px 20px;
+}
+
+.box img {
+    width: 220px;
+    height: 220px;
+}
+
+.box h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.box h5 {
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+.discount {background-color: #fed0cd;}
+.delivery {background-color: #fff3a8;}
+.contact {background-color: #c1eab3;}
+
+.discount h5 {background-color: #7f6866;}
+.delivery h5 {background-color: #7f7954;}
+.contact h5 {background-color: #607559;}
+
+
+/* footer */
+.footer {
+    margin: 20px 0px;
+    padding: 20px;
+    color: #e5eadd;
+    background-color: #565b46;
+    text-align: center;
+}
+
+/* .footer h2 {
+    text-align: center;
+} */
